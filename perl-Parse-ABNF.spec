@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Parse
 %define	pnam	ABNF
 Summary:	Parse::ABNF - Parse IETF Augmented BNF (ABNF) grammars
